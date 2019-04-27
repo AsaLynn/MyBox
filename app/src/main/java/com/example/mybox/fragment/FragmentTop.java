@@ -13,7 +13,8 @@ import android.widget.TextView;
 import com.example.mybox.R;
 import com.zxning.library.entity.Travel;
 
-import butterknife.Bind;
+
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class FragmentTop extends Fragment {
@@ -21,8 +22,8 @@ public class FragmentTop extends Fragment {
     static final String ARG_TRAVEL = "ARG_TRAVEL";
     Travel travel;
 
-    @Bind(R.id.image) ImageView image;
-    @Bind(R.id.title) TextView title;
+    @BindView(R.id.image) ImageView image;
+   @BindView(R.id.title) TextView title;
 
     public static FragmentTop newInstance(Travel travel) {
         Bundle args = new Bundle();
