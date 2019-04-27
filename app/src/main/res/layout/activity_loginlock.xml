@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_efefef">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_px40"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="@dimen/dp_px40"
+                android:id="@+id/photo_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/phone_num_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_px10"
+                android:text=""
+                android:textColor="@color/c_474747"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvWarn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_px10"
+                android:layout_marginTop="@dimen/dp_px10"
+                android:text="绘制解锁图案"
+                android:textColor="@color/c_474747"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+            <com.zxning.library.ui.gesturelock.CustomLockView
+                android:id="@+id/cl"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginBottom="@dimen/dp_px8"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/login_other_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="登录其他帐号"
+                android:textColor="@color/c_3b8ed4"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/forget_pw_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘记手势密码"
+                android:textColor="@color/c_3b8ed4"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

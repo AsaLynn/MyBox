@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Library-FuzzyQueryContacts" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/library-ChartPercent" />
+            <option value="$PROJECT_DIR$/library-CoverFlow" />
+            <option value="$PROJECT_DIR$/library-DotViewSwitchButton" />
+            <option value="$PROJECT_DIR$/library-DottedProgress" />
+            <option value="$PROJECT_DIR$/library-ExpandingPager" />
+            <option value="$PROJECT_DIR$/library-IndexRecylerView" />
+            <option value="$PROJECT_DIR$/library-KeyBoardAble" />
+            <option value="$PROJECT_DIR$/library-PayKeyBoard" />
+            <option value="$PROJECT_DIR$/library-PickerView" />
+            <option value="$PROJECT_DIR$/library-SVProgress" />
+            <option value="$PROJECT_DIR$/library-Support" />
+            <option value="$PROJECT_DIR$/library-TickeTimer" />
+            <option value="$PROJECT_DIR$/library-TimeSelectors" />
+            <option value="$PROJECT_DIR$/library-rippleimage" />
+            <option value="$PROJECT_DIR$/library-topsnackbar" />
+            <option value="$PROJECT_DIR$/library_Number_Colock" />
+            <option value="$PROJECT_DIR$/library_Pick" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

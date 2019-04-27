@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/action1"
+        android:orderInCategory="100"
+        android:title="design_info_details"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action2"
+        android:title="design_share" />
+    <item
+        android:id="@+id/action3"
+        android:orderInCategory="100"
+        android:title="design_agenda"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action4"
+        android:orderInCategory="105"
+        android:title="design_action4"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action5"
+        android:orderInCategory="105"
+        android:title="design_action5"
+        app:showAsAction="never" />
+
+
+</menu>

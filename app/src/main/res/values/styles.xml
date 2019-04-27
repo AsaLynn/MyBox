@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+
+
+    </style>
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:popupBackground">@color/c_ff99cc00</item>
+    </style>
+
+    <!--第一页的布局样式.-->
+    <style name="tv_sty">
+        <item name="android:textColor">@color/tv_c_sc</item>
+        <item name="android:textSize">@dimen/sp_px30</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/dp_px20</item>
+        <item name="android:paddingLeft">@dimen/dp_px10</item>
+        <item name="android:paddingTop">@dimen/dp_px20</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="line_hig_sty">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#474747</item>
+    </style>
+
+    <style name="content_ll_sty">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#EFEFEF</item>
+    </style>
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/bg_d_sp_photo_choose</item>
+    </style>
+
+    <style name="StyleTitleText">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textColor">#444444</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="SwitchButtonMD">
+        <item name="kswThumbDrawable">@drawable/sb_d_sc_ksw_md_thumb</item>
+        <item name="kswBackColor">@color/sb_c_sc_ksw_md_back</item>
+        <item name="kswBackMeasureRatio">1.45</item>
+        <item name="kswThumbMarginLeft">-16dp</item>
+        <item name="kswThumbMarginTop">-14dp</item>
+        <item name="kswThumbMarginRight">-16dp</item>
+        <item name="kswThumbMarginBottom">-14dp</item>
+        <item name="kswThumbWidth">@dimen/ksw_md_thumb_ripple_size</item>
+        <item name="kswThumbHeight">@dimen/ksw_md_thumb_ripple_size</item>
+    </style>
+
+    <style name="SwitchButtonStyleMD" parent="SwitchButtonMD">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+   </style>
+
+</resources>

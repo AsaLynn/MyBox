@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/c_f8f8f9"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dp_px25"
+    android:paddingRight="@dimen/dp_px25">
+
+    <ImageView
+        android:id="@+id/bank_iv"
+        android:layout_width="@dimen/dp_px36"
+        android:layout_height="@dimen/dp_px36"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/card_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_px100"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_px25"
+        android:layout_toRightOf="@+id/bank_iv"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="银行(xxxx)"
+        android:textColor="#474747" />
+
+    <ImageView
+        android:id="@+id/choice_card_iv"
+        android:layout_width="@dimen/dp_px32"
+        android:layout_height="@dimen/dp_px32"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/choice_card_iv" />
+
+</RelativeLayout>

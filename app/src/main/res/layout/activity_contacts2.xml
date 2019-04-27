@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8F9"
+        android:padding="@dimen/dp_px24">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_px60"
+            android:background="@drawable/text_field"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="4dp"
+            android:hint="搜索"
+            android:paddingLeft="4dp"
+            android:paddingRight="40dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ivClearText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:padding="4dp"
+            android:src="@drawable/clear_button"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px140"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp_px20"
+        android:paddingLeft="@dimen/dp_px24"
+        android:paddingTop="@dimen/dp_px20">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/photo_iv"
+            android:layout_width="@dimen/dp_px96"
+            android:layout_height="@dimen/dp_px96"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/iv_m_img_face"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_px40"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开薪点团队"
+                android:textColor="#333333" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_px20"
+                android:text="共26人"
+                android:textColor="#999999" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/people_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:visibility="visible">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/show_head_toast_bg"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+
+        <com.xbc.contacts.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+</LinearLayout>

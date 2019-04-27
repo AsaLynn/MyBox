@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mybox">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--android:theme="@style/AppTheme.NoActionBar">-->
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".base.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DialogActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SnackbarBDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TopSnackbarDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SnackbarADemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TSnackbarDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MaskedImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DesignDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DesignSubActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.GestureActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.GestureLockSettingAty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.GestureLoginLockActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.FragmentTabActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DialogBoxActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.KeyBoard1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.KeyBoard2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.KeyBoard3Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Translate1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ExpandableListViewDemo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SalaryCheckAty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TextShakeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BottomDialogActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BottomDialogAActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BottomDialogBActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ClipLoadActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.JsonActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TabLayout2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.BottomDialogCActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.IndexRecyclerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Chart1Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Chart2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Chart3Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SwitchDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SwitchRecyclerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SwitchStyleActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SwitchStyleInCodeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SwitchUseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.WeightDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.AnimatorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TimeSelectorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TimeCheck2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Coverflow2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CoverflowActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ContactsListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ContactsListAActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.FileOptionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.HanZiToPinYinActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ContactsOptDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.GlideDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.HttpUrlConnnectionDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.HttpJsonDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.OkHttp3DemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ListViewDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ListViewLoadDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ListViewLruCacheActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DiskLruCacheDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.VolleyDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RetrofitDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SwipeRefreshLayoutDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.TimeViewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.RippleImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!--android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->
+
+
+    </application>
+
+</manifest>

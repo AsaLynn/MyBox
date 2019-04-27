@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="I am a menu"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="show/hide menu" />
+
+</RelativeLayout>

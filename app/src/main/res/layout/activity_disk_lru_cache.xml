@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="disklrucacha操作" />
+
+    <ImageView
+        android:id="@+id/iv_disk"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px500"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_px20" />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_num"
+        android:textColor="@color/c_ff000000"
+        android:text="缓存数据的字节数"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_file"
+        android:textColor="@color/c_ff000000"
+        android:text="缓存数据的路径"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_mac_cache"
+        android:textColor="@color/c_ff000000"
+        android:text="最大缓存限制:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

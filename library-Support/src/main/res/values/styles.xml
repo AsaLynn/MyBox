@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- zxn support library 中的主题.application theme. -->
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ProgressBarBig">
+
+        <!-- 进度条样式的图片 -->
+        <item name="android:indeterminateDrawable">@drawable/progress_big</item>
+        <item name="android:maxHeight">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <!-- 进度条样式的图片 -->
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/holo_orange_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--自定义主题样式.-->
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">#4876FF</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/holo_blue_light</item>
+        <!--状态栏底色-->
+        <item name="colorPrimaryDark">@color/holo_blue_light</item>
+        <!--主视窗底色-->
+        <item name="android:windowBackground">@color/dim_foreground_material_dark</item>
+    </style>
+
+    <style name="time_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/anim_photo_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_photo_dialog_out</item>
+    </style>
+
+
+    <!--首页底部的radiobutton的样式-->
+    <style name="MyRadioButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginBottom">@dimen/dp_px4</item>
+        <item name="android:layout_marginTop">@dimen/dp_px4</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:checked">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:padding">@dimen/dp_px4</item>
+        <item name="android:drawablePadding">@dimen/dp_px8</item>
+        <item name="android:textColor">@color/tab_text_selector</item>
+        <item name="android:textSize">@dimen/dp_px20</item>
+    </style>
+
+</resources>

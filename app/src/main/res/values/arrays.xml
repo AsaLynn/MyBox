@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--页面-->
+    <string-array name="page_plates_page1">
+        <item>对话框</item>
+        <item>Snackbar的使用</item>
+        <item>Snackbar挂在不同布局中效果</item>
+        <item>TSnackbar的使用</item>
+        <item>TopSnackbar的使用</item>
+        <item>圆形头像</item><!--5-->
+        <item>Design控件使用</item>
+        <item>手势密码</item>
+        <item>RadioGroup+Fragment底部导航</item>
+        <item>方形对话框实现进度加载</item>
+        <item>仿支付宝弹出密码输入</item>
+        <item>自定义键盘样式二</item>
+        <item>仿支付宝键盘</item>
+        <item>平移动画样式一</item>
+        <item>可折叠列表</item>
+        <item>日期年月选择控件</item>
+        <item>文字左右晃动动画</item>
+        <item>仿QQ底部弹框</item>
+        <item>底部弹框列表循环滑动</item>
+        <item>底部弹框列表</item>
+        <item>常用Progress效果</item>
+        <item>手动解析json</item><!--23-->
+        <item>Tablayout的使用</item><!--25-->
+        <item>底部弹框省市县三级联动</item><!--26-->
+        <item>带索引的RecyclerView</item><!--27-->
+        <item>环形比例一</item><!--28-->
+        <item>环形比例逆向</item><!--29-->
+        <item>环形比例逆向2</item><!--30-->
+        <item>开关按钮</item><!--33-->
+        <item>代码中修改weight</item><!---->
+        <item>几种常用的动画</item><!--30-->
+        <item>日期选择器</item><!--31-->
+        <item>日历选择</item><!---->
+        <item>横向拖动上下折叠列表</item><!--32-->
+        <item>横向拖动列表</item><!--38-->
+        <item>通讯录</item>
+        <item>通讯录二</item>
+        <item>文件操作</item>
+        <item>汉字转拼音</item>
+        <item>通讯录操作</item>
+        <item>ListView分页加载原理</item>
+        <item>SwipeRefreshLayout搭RecyclerView</item>
+        <item>时钟控件</item>
+        <item>水波纹图片</item>
+
+
+        <!--<item>文件操作</item>-->
+        <!--<item>文件操作</item>-->
+        <!--<item>文件操作</item>-->
+    </string-array>
+
+    <!--网络-->
+    <string-array name="net_plates_page1">
+        <item>Glide图片加载库的使用</item>
+        <item>HttpUrlConnection的使用</item>
+        <item>json解析方式</item>
+        <item>okhttp3用法</item>
+        <item>ListView加载网络图片</item>
+        <item>ListView加载图片LruCache内存缓存</item>
+        <item>Volley用法解析</item>
+        <item>Retrofit用法解析</item>
+    </string-array>
+    <!--综合-->
+    <!--存储-->
+    <string-array name="storage_plates_page1">
+        <item>DiskLruCache完全解析</item><!--0-->
+        <item>读取外部数据库</item>
+        <item>storage222</item><!--2-->
+    </string-array>
+
+    <!--我的-->
+
+    <string-array name="help_center_infos">
+        <item>常见问题</item>
+        <item>账户管理</item>
+        <item>预支工资</item>
+    </string-array>
+
+
+    <string-array name="help_infos1">
+        <item>名词解释</item>
+        <item>网络异常</item>
+    </string-array>
+
+    <string-array name="help_infos2">
+        <item>登录注册</item>
+        <item>账户密码</item>
+        <item>安全认证</item>
+        <item>银行卡绑定</item>
+        <item>消息中心</item>
+    </string-array>
+
+    <string-array name="help_infos3">
+        <item>产品介绍</item>
+        <item>借款费用</item>
+        <item>如何申请</item>
+        <item>认证信息</item>
+        <item>如何还款</item>
+    </string-array>
+
+
+    <string-array name="bank_names">
+        <item>中国工商银行</item>
+        <item>中国农业银行</item>
+        <item>中国银行</item>
+        <item>中国建设银行</item>
+        <item>中国光大银行</item>
+        <item>中国民生银行</item>
+        <item>华夏银行</item>
+        <item>中信银行</item>
+        <item>恒丰银行</item>
+        <item>上海浦东发展银行</item>
+        <item>交通银行</item>
+        <item>兴业银行</item>
+        <item>招商银行</item>
+        <item>广东发展银行</item>
+        <item>平安银行</item>
+    </string-array>
+
+    <string-array name="days_time">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <!-- contents -->
+    <string-array name="contents">
+        <item>@string/title_activity_style</item>
+        <item>@string/title_activity_style_in_code</item>
+        <item>@string/title_activity_use</item>
+        <item>@string/title_activity_recycler_view</item>
+    </string-array>
+
+    <string-array name="akta">
+        <item>22,0,0,30,</item>
+        <item>22,0,30,0,</item>
+        <item>30,0,52,30,</item>
+        <item>0,30,26,30,</item>
+        <item>60,0,60,15,</item>
+        <item>60,15,60,30,</item>
+        <item>60,15,85,15,</item>
+        <item>85,15,108,0,</item>
+        <item>85,15,108,30,</item>
+        <item>117,0,147,0,</item>
+        <item>147,0,177,0,</item>
+        <item>147,0,147,32,</item>
+        <item>198,0,176,30,</item>
+        <item>198,0,206,0,</item>
+        <item>206,0,228,30,</item>
+        <item>176,30,202,30,</item>
+    </string-array>
+
+    <string-array name="storehouse">
+        <item>0,35,12,42,</item>
+        <item>12,42,24,35,</item>
+        <item>24,35,12,28,</item>
+        <item>0,35,12,28,</item>
+        <item>0,21,12,28,</item>
+        <item>12,28,24,21,</item>
+        <item>24,35,24,21,</item>
+        <item>24,21,12,14,</item>
+        <item>0,21,12,14,</item>
+        <item>0,21,0,7,</item>
+        <item>12,14,0,7,</item>
+        <item>12,14,24,7,</item>
+        <item>24,7,12,0,</item>
+        <item>0,7,12,0,</item>
+    </string-array>
+
+    <!--<integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array>-->
+</resources>

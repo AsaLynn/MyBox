@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px260"
+        android:background="@color/kxd_white"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_px20"
+            android:src="@mipmap/iv_m_img_face" />
+
+        <TextView
+            android:id="@+id/people_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_px24"
+            android:drawablePadding="@dimen/dp_px20"
+            android:text="高亮" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px100"
+        android:layout_marginTop="@dimen/dp_px30"
+        android:background="@color/kxd_white"
+        android:paddingLeft="@dimen/dp_px24">
+
+        <TextView
+            android:id="@+id/item1_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:text="手机"
+            android:textColor="#999999"
+            android:textSize="@dimen/sp_px30" />
+
+        <TextView
+            android:id="@+id/people_phone_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dp_px90"
+            android:layout_toRightOf="@+id/item1_tv"
+            android:text="18910795207"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_px30" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_px1"
+            android:layout_alignParentBottom="true"
+            android:background="@color/c_ababab" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/save_phone_tv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_px100"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/kxd_white"
+            android:gravity="center"
+            android:text="保存到手机通讯录"
+            android:textColor="@color/c_3b8ed4"
+            android:textSize="@dimen/sp_px30" />
+
+        <TextView
+            android:id="@+id/open_phone_tv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_px100"
+            android:layout_above="@+id/save_phone_tv"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/dp_px2"
+            android:background="@color/kxd_white"
+            android:gravity="center"
+            android:text="查看手机通讯录"
+            android:textColor="@color/c_3b8ed4"
+            android:textSize="@dimen/sp_px30" />
+
+        <TextView
+            android:id="@+id/open_msg_tv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_px100"
+            android:layout_above="@+id/open_phone_tv"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/dp_px2"
+            android:background="@color/kxd_white"
+            android:gravity="center"
+            android:text="使用手机发送信息"
+            android:textColor="@color/c_3b8ed4"
+            android:textSize="@dimen/sp_px30" />
+
+        <TextView
+            android:id="@+id/open_call_tv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_px100"
+            android:layout_above="@+id/open_msg_tv"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/dp_px2"
+            android:background="@color/kxd_white"
+            android:gravity="center"
+            android:text="使用手机打电话"
+            android:textColor="@color/c_3b8ed4"
+            android:textSize="@dimen/sp_px30" />
+    </RelativeLayout>
+
+
+</LinearLayout>

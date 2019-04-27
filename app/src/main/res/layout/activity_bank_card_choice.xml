@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:me_item="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/content_ll_sty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px100"
+        android:layout_marginTop="@dimen/dp_px20"
+        android:background="@color/c_f8f8f9"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_px25"
+        android:text="收款银行卡"
+        android:textColor="#474747"
+        android:textSize="@dimen/sp_px32" />
+
+    <com.zxning.library.ui.views.MeItemView
+        android:id="@+id/card_miv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px100"
+        android:layout_marginTop="@dimen/dp_px2"
+        android:background="@color/c_f8f8f9"
+        android:gravity="center_vertical"
+        me_item:enter="true"
+        me_item:itemName="招商银行(0000)"
+        me_item:itemState=""
+        me_item:itemStateColor="@color/c_474747"
+        me_item:logoSrc="@mipmap/iv_m_img_card" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_px2"
+        android:background="@color/c_f8f8f9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_px25"
+            android:layout_marginRight="@dimen/dp_px25"
+            android:layout_marginTop="@dimen/dp_px30"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="*还款日凌晨从此卡自动扣款"
+                android:textColor="#acacac"
+                android:textSize="@dimen/sp_px28" />
+
+            <TextView
+                android:id="@+id/see_banks_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看支持银行"
+                android:textColor="@color/c_3b8ed4"
+                android:textSize="@dimen/sp_px28"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_px216"
+            android:text="下一步" />
+
+    </LinearLayout>
+
+</LinearLayout>

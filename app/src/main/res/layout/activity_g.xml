@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_glide"
+                android:layout_width="@dimen/dp_px300"
+                android:layout_height="@dimen/dp_px300"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_easy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="简单使用(内存缓存)" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_glide2"
+                android:layout_width="@dimen/dp_px300"
+                android:layout_height="@dimen/dp_px300"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_error_load"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="加载中加载失败图片" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_glide3"
+                android:layout_width="@dimen/dp_px300"
+                android:layout_height="@dimen/dp_px300"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_skip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置跳过内存缓存" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/activity_glide_priorty" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置下载优先级" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/activity_glide_strategy" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="缓存策略" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_glide_am"
+                android:layout_width="@dimen/dp_px300"
+                android:layout_height="@dimen/dp_px300"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置加载动画" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_glide_th"
+                android:layout_width="@dimen/dp_px300"
+                android:layout_height="@dimen/dp_px300"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_thu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置加载缩略图" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_cut1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+
+                    android:id="@+id/iv_cut2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_cut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置加载尺寸" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_tran"
+                android:layout_width="@dimen/dp_px600"
+                android:layout_height="@dimen/dp_px600"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_tran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置动态转换" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/c_ffffff">
+
+                <ImageView
+                    android:id="@+id/iv_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="@dimen/dp_px20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Hello, I am Android!"
+                    android:textColor="@color/c_ffff3e3e" />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btn_img_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置要加载内容" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_lis"
+                android:layout_width="@dimen/dp_px300"
+                android:layout_height="@dimen/dp_px300"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn_glide_lis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置监听接口" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:visibility="visible"
+                android:id="@+id/iv_gif"
+                android:layout_width="@dimen/dp_px300"
+                android:layout_height="@dimen/dp_px300"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn_gif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置加载gif静或动" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:visibility="visible"
+                android:id="@+id/iv_gif_times"
+                android:layout_width="@dimen/dp_px300"
+                android:layout_height="@dimen/dp_px300"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn_gif_times"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置gif播放次数" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:visibility="visible"
+                android:id="@+id/iv_gif_location"
+                android:layout_width="@dimen/dp_px400"
+                android:layout_height="@dimen/dp_px400"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn_gif_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置本地gif播放" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:visibility="visible"
+                android:id="@+id/iv_video"
+                android:layout_width="@dimen/dp_px400"
+                android:layout_height="@dimen/dp_px400"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置加载本地视频缩略图" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_location_img"
+                android:layout_width="@dimen/dp_px400"
+                android:layout_height="@dimen/dp_px400"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn_location_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="设置加载SD卡图片" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

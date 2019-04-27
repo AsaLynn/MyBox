@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+		INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml:6:5-18:19
+	android:label
+		ADDED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml:7:9-35
+uses-sdk
+INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+		ADDED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+		INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+		ADDED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml
+		INJECTED from C:\ZxnTask\demos\MyBox\library-KeyBoardAble\src\main\AndroidManifest.xml

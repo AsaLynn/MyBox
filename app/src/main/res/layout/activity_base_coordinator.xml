@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/root_abl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:visibility="visible">
+        <!--android:background="?attr/colorPrimary"-->
+
+        <!-- android:layout_height="@dimen/dp_px96"-->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#3A3A3A"
+            android:visibility="visible"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:theme="@style/AppTheme">
+
+            <TextView
+                android:id="@+id/left_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="跳过"
+                android:textColor="@color/c_f8f8f9"
+                android:textSize="@dimen/sp_px36"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textColor="#3b8ed4"
+                android:textSize="@dimen/sp_px34"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/title_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:visibility="gone" />
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_base" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_gravity="end|bottom"
+        android:id="@+id/fab"
+        android:src="@android:drawable/sym_action_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.FloatingActionButton>
+
+
+</android.support.design.widget.CoordinatorLayout>

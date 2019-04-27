@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_ffffff"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_px20">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/photo_iv"
+                android:layout_width="@dimen/dp_px110"
+                android:layout_height="@dimen/dp_px110"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="0dp" />
+
+            <LinearLayout
+                android:id="@+id/left_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_px10"
+                android:layout_toRightOf="@id/photo_iv"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="zhang721688"
+                    android:textColor="@color/c_ffff9800"
+                    android:textSize="@dimen/sp_px24" />
+
+                <TextView
+                    android:id="@+id/phone_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_px10"
+                    android:drawableLeft="@mipmap/choice_card_iv"
+                    android:gravity="center_vertical"
+                    android:text="13716071676"
+                    android:textColor="@color/c_ffff9800"
+                    android:textSize="@dimen/sp_px24" />
+
+                <TextView
+                    android:id="@+id/email_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_px10"
+                    android:background="@color/c_ffff9800"
+                    android:paddingLeft="@dimen/dp_px10"
+                    android:paddingRight="@dimen/dp_px10"
+                    android:text="zhang721688@163.com"
+                    android:textColor="@color/c_ffffff"
+                    android:textSize="@dimen/sp_px24" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/left_ll"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_px20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/qq_num_tv"
+                    android:text="QQ:"
+                    android:textColor="@color/c_ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/qq_num_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="593066063"
+                    android:textColor="@color/c_ff000000" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_px20"
+                android:layout_marginTop="@dimen/dp_px20"
+                android:layout_toRightOf="@id/photo_iv"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/qq_num_tv"
+                    android:text="微信:"
+                    android:textColor="@color/c_ff000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wx_num_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="593066063"
+                    android:textColor="@color/c_ff000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px80"
+        android:layout_marginTop="@dimen/dp_px10"
+        android:background="@color/c_ffffff"
+        android:paddingLeft="@dimen/dp_px20"
+        android:paddingRight="@dimen/dp_px20">
+
+        <CheckBox
+            android:id="@+id/show_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:button="@drawable/cb_d_sc_show" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_px20"
+            android:layout_toRightOf="@id/show_cb"
+            android:background="@android:color/transparent"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="单击可以进入相关模块,双击可以进行数量编辑,个人财务模块在不断的开发优化中"
+            android:textColor="@color/c_ffff9800"
+            android:textSize="@dimen/sp_px24" />
+
+    </RelativeLayout>
+
+</LinearLayout>

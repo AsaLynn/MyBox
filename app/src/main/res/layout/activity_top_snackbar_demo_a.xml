@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/m_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="普通SnackBar"
+            android:layout_marginTop="100px"
+            />
+        <Button
+            android:id="@+id/m_btn0"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="右侧带按钮SnackBar"
+            />
+        <Button
+            android:id="@+id/m_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="自定义背景字体颜色"
+            />
+        <Button
+            android:id="@+id/m_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="添加view"
+            />
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/m_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="顶部显示的snackbar"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

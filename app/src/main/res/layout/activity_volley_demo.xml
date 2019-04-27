@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_volley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="volley操作" />
+
+    <TextView
+        android:id="@+id/tv_volley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络请求返回数据!" />
+
+    <ImageView
+        android:id="@+id/iv_volley1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px400"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv_volley2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px300"
+        android:src="@mipmap/ic_launcher" />
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/iv_volley3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px400"
+        android:src="@mipmap/ic_launcher" />
+
+</LinearLayout>

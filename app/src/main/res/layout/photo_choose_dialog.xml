@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="5dip">
+
+    <Button
+        android:background="@drawable/btn_d_sc_photo_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/dp_px1"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="选择图片"
+        android:textColor="@color/c_3b8ed4"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="#DAD9DB" />
+
+    <Button
+        android:background="@drawable/btn_d_sc_photo_select"
+        android:id="@+id/openPhones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="图库"
+        android:textColor="@color/c_3b8ed4"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="#DAD9DB" />
+
+    <Button
+        android:background="@drawable/btn_d_sc_photo_select"
+        android:id="@+id/openCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="拍照"
+        android:textColor="@color/c_3b8ed4"
+        android:textSize="16sp" />
+
+    <Button
+        android:background="@drawable/btn_d_sc_photo_cancel"
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="取消"
+        android:textColor="@color/c_3b8ed4"
+        android:textSize="16sp" />
+
+</LinearLayout>

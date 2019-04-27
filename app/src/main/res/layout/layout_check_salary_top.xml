@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/content_ll_sty"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/dp_px24">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_px20"
+        android:layout_marginRight="@dimen/dp_px20"
+        android:layout_marginTop="@dimen/dp_px42"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名 :"
+                android:textColor="#474747"
+                android:textSize="@dimen/sp_px28"
+
+                />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_px10"
+                android:text="李明"
+                android:textColor="#474747"
+                android:textSize="@dimen/sp_px28" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="单位 :"
+                android:textColor="#474747"
+                android:textSize="@dimen/sp_px28"
+
+                />
+
+            <TextView
+                android:id="@+id/company_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_px20"
+                android:text="金投手"
+                android:textColor="#474747"
+                android:textSize="@dimen/sp_px28" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_px20"
+        android:layout_marginRight="@dimen/dp_px20"
+        android:layout_marginTop="@dimen/dp_px52">
+
+        <LinearLayout
+            android:id="@+id/date_ll"
+            android:layout_width="@dimen/dp_px412"
+            android:layout_height="@dimen/dp_px80"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp_px20">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_px40"
+                android:text="2016-01"
+                android:textColor="@color/c_474747" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/date_btn"
+            android:layout_width="@dimen/dp_px412"
+            android:layout_height="@dimen/dp_px80"
+            android:gravity="center"
+            android:text="2016-01"
+            android:textColor="#474747"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/query_btn"
+            android:layout_width="@dimen/dp_px210"
+            android:layout_height="@dimen/dp_px80"
+            android:layout_alignParentRight="true"
+            android:text="查询"
+            android:textColor="@color/c_f8f8f9" />
+    </RelativeLayout>
+
+</LinearLayout>
+

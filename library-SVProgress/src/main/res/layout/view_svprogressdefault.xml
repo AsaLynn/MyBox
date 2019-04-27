@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dialog_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_svprogresshuddefault"
+        android:gravity="center"
+        android:minHeight="@dimen/size_minwidth_svprogresshuddefault"
+        android:minWidth="@dimen/size_minwidth_svprogresshuddefault"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_svprogresshuddefault">
+
+        <ImageView
+            android:id="@+id/ivBigLoading"
+            android:layout_width="@dimen/size_image_bigloading"
+            android:layout_height="@dimen/size_image_bigloading"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivSmallLoading"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerInside"
+            android:visibility="gone" />
+
+        <com.jtoushou.demo.SVCircleProgressBar
+            android:id="@+id/circleProgressBar"
+            android:layout_width="@dimen/size_image_smallloading"
+            android:layout_height="@dimen/size_image_smallloading"
+            android:visibility="gone"
+            app:roundColor="@color/roundColor_svprogresshuddefault"
+            app:roundProgressColor="@color/roundProgressColor_svprogresshuddefault"
+            app:roundWidth="2dip" />
+
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop_svprogresshuddefault_msg"
+            android:gravity="center"
+            android:textColor="@color/textColor_svprogresshuddefault_msg"
+            android:textSize="@dimen/textSize_svprogresshuddefault_msg"
+            android:visibility="gone" />
+
+        <com.trncic.library.DottedProgressBar
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            app:activeDot="@drawable/active_dot"
+            app:dotSize="10dp"
+            app:dotNumber="3"
+            android:layout_gravity="center_horizontal"
+            app:inactiveDot="@drawable/inactive_dot"
+            app:jumpingSpeed="670"
+            app:spacing="4dp" />
+
+    </LinearLayout>
+</LinearLayout>

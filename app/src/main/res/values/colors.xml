@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDivider">#E1E1E1</color>
+    <!--<drawable name="dialog_holo_dark_frame">@drawable/dialog_full_holo_dark</drawable>
+    <drawable name="dialog_holo_light_frame">@drawable/dialog_full_holo_light</drawable>-->
+    <drawable name="input_method_fullscreen_background_holo">@drawable/screen_background_holo_dark
+    </drawable>
+
+    <drawable name="screen_background_holo_light">#fff3f3f3</drawable>
+    <drawable name="screen_background_holo_dark">#ff000000</drawable>
+
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="bright_foreground_holo_dark">@color/background_holo_light</color>
+    <color name="bright_foreground_holo_light">@color/background_holo_dark</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="bright_foreground_inverse_holo_dark">@color/bright_foreground_holo_light</color>
+    <color name="bright_foreground_inverse_holo_light">@color/bright_foreground_holo_dark</color>
+    <color name="dim_foreground_holo_dark">#bebebe</color>
+    <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="hint_foreground_holo_dark">#808080</color>
+    <color name="dim_foreground_holo_light">#323232</color>
+    <color name="dim_foreground_disabled_holo_light">#80323232</color>
+    <color name="dim_foreground_inverse_holo_light">#bebebe</color>
+    <color name="dim_foreground_inverse_disabled_holo_light">#80bebebe</color>
+    <color name="hint_foreground_holo_light">#808080</color>
+    <color name="highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="highlighted_text_holo_light">#6633b5e5</color>
+    <color name="link_text_holo_dark">#5c5cff</color>
+    <color name="link_text_holo_light">#0000ee</color>
+
+    <!-- General purpose colors for Holo-themed elements -->
+    <eat-comment />
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of gray -->
+    <color name="holo_gray_light">#33999999</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <!-- A really bright Holo shade of gray -->
+    <color name="holo_gray_bright">#33CCCCCC</color>
+
+    <!-- Forward compatibility for Material-style theme colors -->
+    <eat-comment />
+
+    <color name="holo_primary_dark">#ff000000</color>
+    <color name="holo_primary">#ffe6e6e6</color>
+    <color name="holo_primary_light">#ffffffff</color>
+    <color name="holo_control_activated">@color/holo_blue_light</color>
+    <color name="holo_control_normal">#39cccccc</color>
+    <color name="holo_button_pressed">#59f0f0f0</color>
+    <color name="holo_button_normal">#bd292f34</color>
+
+    <color name="holo_light_primary_dark">#ff000000</color>
+    <color name="holo_light_primary">#ffe6e6e6</color>
+    <color name="holo_light_primary_light">#ffffffff</color>
+    <color name="holo_light_control_activated">@color/holo_control_activated</color>
+    <color name="holo_light_control_normal">#dacccccc</color>
+    <color name="holo_light_button_pressed">#66666666</color>
+    <color name="holo_light_button_normal">#b3cccccc</color>
+
+    <!-- Group buttons -->
+    <eat-comment />
+
+    <color name="group_button_dialog_pressed_holo_dark">#46c5c1ff</color>
+    <color name="group_button_dialog_focused_holo_dark">#2699cc00</color>
+
+    <color name="group_button_dialog_pressed_holo_light">#ffffffff</color>
+    <color name="group_button_dialog_focused_holo_light">#4699cc00</color>
+
+    <color name="tab_text_normal">#696969</color>
+    <color name="tab_text_selected">#73bf40</color>
+    <!--内容图背景-->
+    <color name="content_bg">#efefef</color>
+    <!--登录-->
+    <color name="text_et">#acacac</color>
+
+    <color name="text_white">#f8f8f9</color>
+
+    <!--标题背景-->
+    <color name="title_bg">#f8f8f9</color>
+    <!--一键读懂业务字体-->
+    <color name="text_cl">#474747</color>
+    <color name="tex_cl">#202020</color>
+    <!--手势-->
+    <color name="lock">#394051</color>
+    <color name="open">#46B3B6</color>
+    <color name="yellow">#ffff00</color><!--黄色 -->
+    <color name="text_red">#ff4444</color><!--红色 -->
+    <color name="title_text">#3b8ed4</color>
+
+    <color name="green">#00CD00</color>
+    <color name="gray">#ABABAB</color>
+
+    <color name="default_back_color">@android:color/transparent</color>
+    <color name="default_chart_value_color">#ff3d00</color>
+    <color name="default_back_stroke_color">#acacac</color>
+    <color name="use_back_stroke_color">#3b8ed4</color>
+    <color name="use_back_stroke_color2">#6e90d4</color>
+    <color name="white">#ffffff</color>
+    <color name="white_e3">#e3e4e5</color>
+    <color name="white_67">#6796df</color>
+    <color name="blue">#3183c9</color>
+    <color name="kxd_white">#f8f8f9</color>
+    <color name="chart_value_1">#ff3d00</color>
+
+    <!--qlt-->
+    <color name="bg_aty_gray">#efefef</color>
+    <color name="item_aty_common">#f8f8f9</color>
+    <color name="bt_selector_normal">#3b8ed4</color>
+    <color name="bt_selector_press">#3183c9</color>
+    <color name="tv_dark_grey">#474747</color>
+    <color name="bt_blue_3b">#3b81d4</color>
+    <color name="bg_attendance_detail_gray">#e1e1e1</color>
+    <color name="bg_attendance_status_green">#009966</color>
+    <color name="bg_attendance_status_red">#ff4444</color>
+
+
+    <color name="caldroid_item_exception_bg">#f3dbb3</color>
+
+
+    <color name="point_viewpager_white">#ffffff</color>
+    <color name="point_viewpager_gray">#aaaaaa</color>
+
+
+    <color name="light_theme_default_background">@color/grey_200</color>
+    <color name="primary">@color/blue_grey_500</color>
+    <color name="primaryDark">@color/blue_grey_700</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="grey_200">#EEEEEE</color>
+
+
+    <color name="color_0">#ff6666</color>
+    <color name="color_1">#ccccff</color>
+    <color name="color_2">#9999cc</color>
+    <color name="color_3">#ffffcc</color>
+    <color name="color_4">#cccc33</color>
+    <color name="color_5">#cc9966</color>
+    <color name="color_6">#cccccc</color>
+    <color name="color_7">#cccc99</color>
+    <color name="color_8">#cc9966</color>
+    <color name="color_9">#ff99cc</color>
+
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+
+
+    <color name="image_selector_action_bar_color">#222222</color>
+
+    <color name="default_bg_color">@android:color/transparent</color>
+    <color name="default_value_stroke_color">#ff3d00</color>
+    <color name="default_stroke_color">#acacac</color>
+
+    <color name="red">#ffff4444</color>
+    <color name="black">#ff000000</color>
+    <color name="orange">#ffff9800</color><!--  500 -->
+
+
+    <color name="content_cl">#F5F5F9</color><!--  500 -->
+
+
+
+    <color name="lighter_gray">#ddd</color>
+
+
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <color name="bgColor_btn_empty"> #EAEBEF</color>
+
+    <color name="txColor_btn_empty"> #D4D5D9</color>
+    <color name="caldroid_item_weekend">#acacac</color>
+    <color name="caldroid_item_content">#ff3333</color>
+    <!--银行背景色-->
+    <color name="bank_gongshang_bg">#ff3333</color>
+    <color name="bank_guangda_bg">#4C7BBA</color>
+    <color name="bank_guangfa_bg">#DF5F80</color>
+    <color name="bank_jianshe_bg">#446DB2</color>
+    <color name="bank_minsheng_bg">#0FA18F</color>
+    <color name="bank_nongye_bg">#0B9D8D</color>
+    <color name="bank_pufa_bg">#436BB1</color>
+    <color name="bank_zhaoshang_bg">#E0607F</color>
+    <color name="bank_zhongguo_bg">#E86474</color>
+    <color name="bank_zhongxin_bg">#E46279</color>
+    <color name="bank_beijing_bg">#E2617C</color>
+    <color name="bank_shanghai_bg">#436BB1</color>
+    <color name="bank_huaxia_bg">#EA6573</color>
+
+    <color name="color_item_bg">#6086a3</color>
+    <color name="color_view_bg">#1e6390</color>
+    <color name="color_view_btn">#1fbaf3</color>
+
+    <color name="bg_swipe_item_neutral">#ffffffff</color>
+    <color name="bg_swipe_item_left">#fff9930d</color>
+    <color name="bg_swipe_item_right">#ff2f8b2a</color>
+    <color name="bg_swipe_group_item_left">#fff45f30</color>
+    <color name="bg_swipe_group_item_right">#ff295db3</color>
+    <color name="bg_item_normal_state">#fff0f0f0</color>
+    <color name="bg_item_normal_pressed_state">#ffe0e0e0</color>
+    <color name="bg_item_swiping_state">#ffddddff</color>
+    <color name="bg_item_swiping_active_state">#ff9999ff</color>
+    <color name="bg_item_dragging_state">#ffffdddd</color>
+    <color name="bg_item_dragging_active_state">#ffff9999</color>
+    <color name="button_d_active">#5d1c23</color>
+    <color name="button_d_normal">#793042</color>
+
+
+    <color name="accent">#eeff41</color>
+    <color name="accentLight">#F4FF81</color>
+    <color name="tab_text_color">#ffff3abb</color>
+
+    <color name="backgroundColor">@color/background_material_dark</color>
+    <color name="backgroundColorPress">@color/accent_material_dark</color>
+    <color name="black_333333">#333333</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_3b8ed4">#3b8ed4</color>
+    <color name="color_e0e0e0">#e0e0e0</color>
+    <color name="red_ff3333">#ff333333</color>
+    <color name="bg_attendance_text_green">#339900</color>
+    <color name="bg_f8f8f9">#f8f8f9</color>
+    <color name="gray_999999">#999999</color>
+
+</resources>

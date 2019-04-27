@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/content_fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" />
+
+    <com.zxning.library.ui.views.NestRadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_px96"
+        android:background="#FAFBFD"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.zxning.library.ui.views.MyRadioButton
+            android:id="@+id/rb_home_page"
+            style="@style/MyRadioButtonStyle"
+            android:text="页面"
+            app:drawableHeightSize="24dp"
+            app:drawableTop="@drawable/tab_home_sc" />
+
+        <com.zxning.library.ui.views.MyRadioButton
+            android:id="@+id/rb_net"
+            style="@style/MyRadioButtonStyle"
+            android:text="网络"
+            app:drawableHeightSize="24dp"
+            app:drawableTop="@drawable/tab_home_sc" />
+
+        <com.zxning.library.ui.views.MyRadioButton
+            android:id="@+id/rb_comprehensive"
+            style="@style/MyRadioButtonStyle"
+            android:text="综合"
+            app:drawableHeightSize="24dp"
+            app:drawableTop="@drawable/tab_home_sc" />
+
+        <com.zxning.library.ui.views.MyRadioButton
+            android:id="@+id/rb_monney"
+            style="@style/MyRadioButtonStyle"
+            android:text="存储"
+            app:drawableHeightSize="24dp"
+            app:drawableTop="@drawable/tab_home_sc" />
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.zxning.library.ui.views.MyRadioButton
+                android:id="@+id/rb_me"
+                style="@style/MyRadioButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="我的"
+                app:drawableHeightSize="24dp"
+                app:drawableTop="@drawable/tab_home_sc" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/dp_px80"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/msg_dot_tv"
+                    android:layout_width="@dimen/dp_px20"
+                    android:layout_height="@dimen/dp_px20"
+                    android:layout_marginTop="@dimen/dp_px8"
+                    android:background="@drawable/bg_sp_reddot"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sp_px4"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </com.zxning.library.ui.views.NestRadioGroup>
+
+</LinearLayout>

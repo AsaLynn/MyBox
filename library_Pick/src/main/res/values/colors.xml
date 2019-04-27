@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tv_dark_grey">#474747</color>
+    <color name="kxd_white">#f8f8f9</color>
+    <color name="bt_selector_press">#3183c9</color>
+    <color name="bt_selector_normal">#3b8ed4</color>
+    <color name="c_1fbaf3">#1fbaf3</color>
+</resources>

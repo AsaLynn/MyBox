@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="chart_item0">#4C68DE</color>
+    <color name="chart_item1">#FDB128</color>
+    <color name="chart_item2">#F46950</color>
+    <color name="chart_item3">#1DAC91</color>
+    <color name="chart_item4">#8AC832</color>
+    <color name="chart_item5">#4699cc00</color>
+    <color name="chart_item6">#ff7b1fa2</color>
+    <color name="chart_item7">#ff00ddff</color>
+    <color name="chart_item8">#5c5cff</color>
+    <color name="chart_item9">#bd292f34</color>
+    <color name="chart_item10">#ffff00</color>
+    <color name="chart_item11">#6e90d4</color>
+</resources>
