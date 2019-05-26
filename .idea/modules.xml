@@ -3,24 +3,44 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Library-FuzzyQueryContacts/Library-FuzzyQueryContacts.iml" filepath="$PROJECT_DIR$/Library-FuzzyQueryContacts/Library-FuzzyQueryContacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library-FuzzyQueryContacts/Library-FuzzyQueryContacts.iml" filepath="$PROJECT_DIR$/Library-FuzzyQueryContacts/Library-FuzzyQueryContacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyBox.iml" filepath="$PROJECT_DIR$/.idea/MyBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBox.iml" filepath="$PROJECT_DIR$/MyBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-ChartPercent/library-ChartPercent.iml" filepath="$PROJECT_DIR$/library-ChartPercent/library-ChartPercent.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-ChartPercent/library-ChartPercent.iml" filepath="$PROJECT_DIR$/library-ChartPercent/library-ChartPercent.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-CoverFlow/library-CoverFlow.iml" filepath="$PROJECT_DIR$/library-CoverFlow/library-CoverFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-CoverFlow/library-CoverFlow.iml" filepath="$PROJECT_DIR$/library-CoverFlow/library-CoverFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-DotViewSwitchButton/library-DotViewSwitchButton.iml" filepath="$PROJECT_DIR$/library-DotViewSwitchButton/library-DotViewSwitchButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-DotViewSwitchButton/library-DotViewSwitchButton.iml" filepath="$PROJECT_DIR$/library-DotViewSwitchButton/library-DotViewSwitchButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-DottedProgress/library-DottedProgress.iml" filepath="$PROJECT_DIR$/library-DottedProgress/library-DottedProgress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-DottedProgress/library-DottedProgress.iml" filepath="$PROJECT_DIR$/library-DottedProgress/library-DottedProgress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-ExpandingPager/library-ExpandingPager.iml" filepath="$PROJECT_DIR$/library-ExpandingPager/library-ExpandingPager.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-ExpandingPager/library-ExpandingPager.iml" filepath="$PROJECT_DIR$/library-ExpandingPager/library-ExpandingPager.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-IndexRecylerView/library-IndexRecylerView.iml" filepath="$PROJECT_DIR$/library-IndexRecylerView/library-IndexRecylerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-IndexRecylerView/library-IndexRecylerView.iml" filepath="$PROJECT_DIR$/library-IndexRecylerView/library-IndexRecylerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-KeyBoardAble/library-KeyBoardAble.iml" filepath="$PROJECT_DIR$/library-KeyBoardAble/library-KeyBoardAble.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-KeyBoardAble/library-KeyBoardAble.iml" filepath="$PROJECT_DIR$/library-KeyBoardAble/library-KeyBoardAble.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-PayKeyBoard/library-PayKeyBoard.iml" filepath="$PROJECT_DIR$/library-PayKeyBoard/library-PayKeyBoard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-PayKeyBoard/library-PayKeyBoard.iml" filepath="$PROJECT_DIR$/library-PayKeyBoard/library-PayKeyBoard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-PickerView/library-PickerView.iml" filepath="$PROJECT_DIR$/library-PickerView/library-PickerView.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-PickerView/library-PickerView.iml" filepath="$PROJECT_DIR$/library-PickerView/library-PickerView.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-SVProgress/library-SVProgress.iml" filepath="$PROJECT_DIR$/library-SVProgress/library-SVProgress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-SVProgress/library-SVProgress.iml" filepath="$PROJECT_DIR$/library-SVProgress/library-SVProgress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-Support/library-Support.iml" filepath="$PROJECT_DIR$/library-Support/library-Support.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-Support/library-Support.iml" filepath="$PROJECT_DIR$/library-Support/library-Support.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-TickeTimer/library-TickeTimer.iml" filepath="$PROJECT_DIR$/library-TickeTimer/library-TickeTimer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-TickeTimer/library-TickeTimer.iml" filepath="$PROJECT_DIR$/library-TickeTimer/library-TickeTimer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-TimeSelectors/library-TimeSelectors.iml" filepath="$PROJECT_DIR$/library-TimeSelectors/library-TimeSelectors.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-TimeSelectors/library-TimeSelectors.iml" filepath="$PROJECT_DIR$/library-TimeSelectors/library-TimeSelectors.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-rippleimage/library-rippleimage.iml" filepath="$PROJECT_DIR$/library-rippleimage/library-rippleimage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-rippleimage/library-rippleimage.iml" filepath="$PROJECT_DIR$/library-rippleimage/library-rippleimage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-topsnackbar/library-topsnackbar.iml" filepath="$PROJECT_DIR$/library-topsnackbar/library-topsnackbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-topsnackbar/library-topsnackbar.iml" filepath="$PROJECT_DIR$/library-topsnackbar/library-topsnackbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/library_Number_Colock/library_Number_Colock.iml" filepath="$PROJECT_DIR$/library_Number_Colock/library_Number_Colock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_Number_Colock/library_Number_Colock.iml" filepath="$PROJECT_DIR$/library_Number_Colock/library_Number_Colock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_Pick/library_Pick.iml" filepath="$PROJECT_DIR$/library_Pick/library_Pick.iml" />
       <module fileurl="file://$PROJECT_DIR$/library_Pick/library_Pick.iml" filepath="$PROJECT_DIR$/library_Pick/library_Pick.iml" />
     </modules>
   </component>
